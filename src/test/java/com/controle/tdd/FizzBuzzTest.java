@@ -11,5 +11,11 @@ public class FizzBuzzTest {
         assertThat(FizzBuzz.de(1)).isEqualTo("1");
     }
 
+    @Test
+    void de_retourne_2_pour_2() {
+        String result = FizzBuzz.de(2);
+        assertThat(result).isEqualTo("2");
+    }
+
 }
 

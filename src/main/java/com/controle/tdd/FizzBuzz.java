@@ -2,7 +2,7 @@ package com.controle.tdd;
 
 public class FizzBuzz {
     public static String de(int number) {
-        return "1";
+        return String.valueOf(number);
     }
 
 }
