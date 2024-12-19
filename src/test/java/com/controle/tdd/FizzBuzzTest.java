@@ -23,5 +23,12 @@ public class FizzBuzzTest {
         assertThat(result).isEqualTo("Fizz");
     }
 
+    @Test
+    void de_retourne_buzz_pour_5() {
+        String result = FizzBuzz.de(5);
+        assertThat(result).isEqualTo("Buzz");
+    }
+
+
 }
 
